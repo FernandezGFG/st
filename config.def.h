@@ -10,7 +10,7 @@ static char *font = "Liberation Mono:pixelsize=20:antialias=true:autohint=true";
 static char *font2[] = { "Inconsolata for Powerline:pixelsize=20:antialias=true:autohint=true" };
 
 int borderperc = 20;
-static int borderpx = 10;
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -126,7 +126,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 258;
-static unsigned int defaultcs = 256;
+static unsigned int defaultcs = 255;
 static unsigned int defaultrcs = 257;
 
 /*
