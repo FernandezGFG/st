@@ -12,5 +12,9 @@
 - [xresources](https://st.suckless.org/patches/xresources/): st-xresources-20190105-3be4cf1.diff
 
 ## License
-
 ![](https://img.shields.io/github/license/FernandezGFG/st)
+
+<h1 align="center">
+        <img width="200" src="st.png" alt="st">
+        <br>
+</h1>
