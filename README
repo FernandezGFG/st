@@ -1,34 +1,16 @@
-st - simple terminal
---------------------
-st is a simple terminal emulator for X which sucks less.
+# st - simple terminal
+[st](https://st.suckless.org/) is a simple terminal implementation for X.
 
+## Requirements
 
-Requirements
-------------
-In order to build st you need the Xlib header files.
+## Patches
+- [alpha](https://st.suckless.org/patches/alpha/): st-alpha-0.8.2.diff
+- [scrollback](https://st.suckless.org/patches/scrollback/): st-scrollback-20200504-28ad288.diff - st-scrollback-mouse-20191024-a2c479c.diff
+- [clipboard](https://st.suckless.org/patches/clipboard/): st-clipboard-20180309-c5ba9c0.diff
+- [font2](https://st.suckless.org/patches/font2/): st-font2-20190416-ba72400.diff
+- [vertcenter](https://st.suckless.org/patches/vertcenter/): st-vertcenter-20180320-6ac8c8a.diff
+- [xresources](https://st.suckless.org/patches/xresources/): st-xresources-20190105-3be4cf1.diff
 
+## License
 
-Installation
-------------
-Edit config.mk to match your local setup (st is installed into
-the /usr/local namespace by default).
-
-Afterwards enter the following command to build and install st (if
-necessary as root):
-
-    make clean install
-
-
-Running st
-----------
-If you did not install st with make clean install, you must compile
-the st terminfo entry with the following command:
-
-    tic -sx st.info
-
-See the man page for additional details.
-
-Credits
--------
-Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
-
+![](https://img.shields.io/github/license/FernandezGFG/st)
