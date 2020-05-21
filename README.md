@@ -10,6 +10,7 @@
 - [font2](https://st.suckless.org/patches/font2/): st-font2-20190416-ba72400.diff
 - [vertcenter](https://st.suckless.org/patches/vertcenter/): st-vertcenter-20180320-6ac8c8a.diff
 - [xresources](https://st.suckless.org/patches/xresources/): st-xresources-20190105-3be4cf1.diff
+- [newterm](https://st.suckless.org/patches/newterm/): st-newterm-0.8.2.diff
 
 ## License
 ![](https://img.shields.io/github/license/FernandezGFG/st)
